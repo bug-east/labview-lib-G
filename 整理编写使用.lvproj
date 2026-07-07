@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="日志类" Type="Folder">
+		<Item Name="Log_class" Type="Folder">
 			<Item Name="Modules-日志" Type="Folder">
 				<Item Name="Log_class.lvlib" Type="Library" URL="../Log_Class/Log_class.lvlib"/>
 			</Item>
@@ -19,8 +19,8 @@
 				<Item Name="Test log class API.vi" Type="VI" URL="../日志类/Test log class API.vi"/>
 			</Item>
 		</Item>
-		<Item Name="结构化数据" Type="Folder">
-			<Item Name="结构化数据父类.lvclass" Type="LVClass" URL="../结构化数据/结构化数据父类.lvclass"/>
+		<Item Name="Structured_data" Type="Folder">
+			<Item Name="Structured_data_class_F.lvclass" Type="LVClass" URL="../Structured_data/Structured_data_class_F.lvclass"/>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
