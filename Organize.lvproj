@@ -22,6 +22,9 @@
 		<Item Name="Structured_data" Type="Folder">
 			<Item Name="Structured_data_class_F.lvclass" Type="LVClass" URL="../Structured_data/Structured_data_class_F.lvclass"/>
 		</Item>
+		<Item Name="Report" Type="Folder">
+			<Item Name="Report_modify.lvlib" Type="Library" URL="../action-x/Report_modify.lvlib"/>
+		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
