@@ -25,6 +25,9 @@
 		<Item Name="Report" Type="Folder">
 			<Item Name="Report_modify.lvlib" Type="Library" URL="../action-x/Report_modify.lvlib"/>
 		</Item>
+		<Item Name="Protocol" Type="Folder">
+			<Item Name="Procotol_class.lvclass" Type="LVClass" URL="../Procotol_class/Procotol_class.lvclass"/>
+		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
