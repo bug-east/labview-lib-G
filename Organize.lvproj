@@ -16,7 +16,7 @@
 				<Item Name="Log_class.lvlib" Type="Library" URL="../Log_Class/Log_class.lvlib"/>
 			</Item>
 			<Item Name="Testers-日志" Type="Folder">
-				<Item Name="Test log class API.vi" Type="VI" URL="../日志类/Test log class API.vi"/>
+				<Item Name="Test log class API.vi" Type="VI" URL="../Log_Class/Test log class API.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Structured_data" Type="Folder">
