@@ -20,6 +20,9 @@
 			</Item>
 		</Item>
 		<Item Name="Structured_data" Type="Folder">
+			<Item Name="Readme" Type="Folder">
+				<Item Name="Structrued_data_Read_me.docx" Type="Document" URL="../Structured_data_template/Structrued_data_Read_me.docx"/>
+			</Item>
 			<Item Name="Structured_data_class_F.lvclass" Type="LVClass" URL="../Structured_data/Structured_data_class_F.lvclass"/>
 		</Item>
 		<Item Name="Report" Type="Folder">
@@ -27,6 +30,13 @@
 		</Item>
 		<Item Name="Protocol" Type="Folder">
 			<Item Name="Procotol_class.lvclass" Type="LVClass" URL="../Procotol_class/Procotol_class.lvclass"/>
+		</Item>
+		<Item Name="Can_chuangxin" Type="Folder">
+			<Item Name="ControlCAN_G.lvlib" Type="Library" URL="../Can_lab/ControlCAN.lvlib/ControlCAN_G.lvlib"/>
+			<Item Name="Can_class_chaungxin.lvclass" Type="LVClass" URL="../Can_lab/Can_class_chaunxin_G/Can_class_chaungxin.lvclass"/>
+		</Item>
+		<Item Name="Uart" Type="Folder">
+			<Item Name="G-Uart-Class.lvclass" Type="LVClass" URL="../Uart_class/G-Uart-Class.lvclass"/>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -151,6 +161,12 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Handle Open Word or Excel File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Toolkit/Handle Open Word or Excel File.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
