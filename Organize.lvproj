@@ -42,7 +42,9 @@
 			<Item Name="Path_management.lvclass" Type="LVClass" URL="../Path_Management_Class/Path_management.lvclass"/>
 		</Item>
 		<Item Name="Auto_process" Type="Folder"/>
-		<Item Name="Database" Type="Folder"/>
+		<Item Name="Database" Type="Folder">
+			<Item Name="Database_access.lvclass" Type="LVClass" URL="../Database/Database_access.lvclass"/>
+		</Item>
 		<Item Name="Popup" Type="Folder">
 			<Item Name="Testers-Popup" Type="Folder">
 				<Item Name="Test Popup API.vi" Type="VI" URL="../Popup/Test Popup API.vi"/>
@@ -195,6 +197,10 @@
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
