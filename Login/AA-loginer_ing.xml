@@ -1,0 +1,16 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0</Version>
+<Cluster>
+<Name>wirte</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>登录名</Name>
+<Val>JK1</Val>
+</String>
+<String>
+<Name>权限</Name>
+<Val>操作员</Val>
+</String>
+</Cluster>
+</LVData>

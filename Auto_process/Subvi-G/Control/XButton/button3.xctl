@@ -1,0 +1,95 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="18008000">
+	<Property Name="NI.Lib.ContainingLib" Type="Str">XButton.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../XButton.lvlib</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Arguments" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Helper Loop" Type="Folder">
+			<Item Name="helper loop Events.ctl" Type="VI" URL="../helper loop Events.ctl"/>
+			<Item Name="move event.ctl" Type="VI" URL="../move event.ctl"/>
+		</Item>
+		<Item Name="用户事件引用.ctl" Type="VI" URL="../用户事件引用.ctl"/>
+	</Item>
+	<Item Name="Control" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="button.ctl" Type="VI" URL="../button.ctl"/>
+	</Item>
+	<Item Name="Methods" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="关闭Helper Loop.vi" Type="Method VI" URL="../关闭Helper Loop.vi"/>
+		<Item Name="启动helper loop.vi" Type="Method VI" URL="../启动helper loop.vi"/>
+	</Item>
+	<Item Name="Helper Loop VI" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="helper loop.vi" Type="VI" URL="../helper loop.vi"/>
+		<Item Name="stop helper loop.vi" Type="VI" URL="../stop helper loop.vi"/>
+		<Item Name="start helper loop.vi" Type="VI" URL="../start helper loop.vi"/>
+		<Item Name="get helper loop state.vi" Type="VI" URL="../get helper loop state.vi"/>
+		<Item Name="Obtain Events.vi" Type="VI" URL="../Obtain Events.vi"/>
+	</Item>
+	<Item Name="Support" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="easingOut.vi" Type="VI" URL="../easingOut.vi"/>
+		<Item Name="move2.vi" Type="VI" URL="../move2.vi"/>
+		<Item Name="move1.vi" Type="VI" URL="../move1.vi"/>
+		<Item Name="配置动效风格.vi" Type="VI" URL="../配置动效风格.vi"/>
+	</Item>
+	<Item Name="初始化.vi" Type="Ability VI" URL="../初始化.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="窗格引用" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">窗格引用</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">窗格引用</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="窗格引用写入 4.vi" Type="Property VI" URL="../窗格引用写入 4.vi"/>
+	</Item>
+	<Item Name="布尔文本" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">布尔文本</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">布尔文本</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="布尔文本写入.vi" Type="Property VI" URL="../布尔文本写入.vi"/>
+	</Item>
+	<Item Name="按钮颜色" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">按钮颜色</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">按钮颜色</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="按钮颜色写入.vi" Type="Property VI" URL="../按钮颜色写入.vi"/>
+	</Item>
+	<Item Name="数据.ctl" Type="Ability VI" URL="../数据.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="外观.vi" Type="Ability VI" URL="../外观.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="状态.ctl" Type="Ability VI" URL="../状态.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="布尔文本颜色" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">布尔文本颜色</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">布尔文本颜色</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="布尔文本颜色写入.vi" Type="Property VI" URL="../布尔文本颜色写入.vi"/>
+	</Item>
+	<Item Name="布尔文本字号" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">布尔文本字号</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">布尔文本字号</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="布尔文本字号写入.vi" Type="Property VI" URL="../布尔文本字号写入.vi"/>
+	</Item>
+	<Item Name="动效风格" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">动效风格</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">动效风格</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="动效风格写入.vi" Type="Property VI" URL="../动效风格写入.vi"/>
+	</Item>
+</XControl>

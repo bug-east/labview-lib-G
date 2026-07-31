@@ -41,7 +41,30 @@
 		<Item Name="Path_management" Type="Folder">
 			<Item Name="Path_management.lvclass" Type="LVClass" URL="../Path_Management_Class/Path_management.lvclass"/>
 		</Item>
-		<Item Name="Auto_process" Type="Folder"/>
+		<Item Name="Auto_process_-Delete" Type="Folder">
+			<Item Name="Edit" Type="Folder">
+				<Item Name="Test" Type="Folder">
+					<Item Name="Test editor.vi" Type="VI" URL="../Auto_process/editor/Test editor.vi"/>
+				</Item>
+				<Item Name="Modules" Type="Folder">
+					<Item Name="Subvi" Type="Folder">
+						<Item Name="拆解坐标.vi" Type="VI" URL="../Auto_process/editor/拆解坐标.vi"/>
+					</Item>
+					<Item Name="editor.lvlib" Type="Library" URL="../Auto_process/editor/editor.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Process" Type="Folder">
+				<Item Name="Modules" Type="Folder">
+					<Item Name="Automatic Step.lvlib" Type="Library" URL="../Auto_process/Automatic Step/Automatic Step.lvlib"/>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="Test Automatic Step API.vi" Type="VI" URL="../Auto_process/Automatic Step/Test Automatic Step API.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Subvi" Type="Folder">
+				<Item Name="Sub配件1.lvlib" Type="Library" URL="../Auto_process/Subvi/Sub配件1.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Database" Type="Folder">
 			<Item Name="Database_access.lvclass" Type="LVClass" URL="../Database/Database_access.lvclass"/>
 		</Item>
@@ -51,6 +74,35 @@
 			</Item>
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Popup.lvlib" Type="Library" URL="../Popup/Popup.lvlib"/>
+			</Item>
+		</Item>
+		<Item Name="Timer" Type="Folder">
+			<Item Name="Timer.lvclass" Type="LVClass" URL="../Timer/Timer.lvclass"/>
+		</Item>
+		<Item Name="Login" Type="Folder">
+			<Item Name="Modules" Type="Folder">
+				<Item Name="login.lvlib" Type="Library" URL="../Login/login-G.lvlib/login.lvlib"/>
+			</Item>
+			<Item Name="Test-login" Type="Folder">
+				<Item Name="Test_login.vi" Type="VI" URL="../Login/login-G.lvlib/Test_login.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Auto-Process" Type="Folder">
+			<Item Name="Testers-Auto-Process" Type="Folder">
+				<Item Name="Test Auto-Process API.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Test Auto-Process API.vi"/>
+			</Item>
+			<Item Name="Subvi " Type="Folder">
+				<Item Name="Control" Type="Folder">
+					<Item Name="XButton.lvlib" Type="Library" URL="../Auto_process/Subvi-G/Control/XButton/XButton.lvlib"/>
+				</Item>
+				<Item Name="VI " Type="Folder">
+					<Item Name="Edit.ctl" Type="VI" URL="../Auto_process/Auto-Process2.0/Edit.ctl"/>
+					<Item Name="List-format.vi" Type="VI" URL="../Auto_process/Subvi-G/List-format.vi"/>
+					<Item Name="Indicator-string.vi" Type="VI" URL="../Auto_process/Subvi-G/Indicator-string.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Modules" Type="Folder">
+				<Item Name="Auto-Process.lvlib" Type="Library" URL="../Auto_process/Auto-Process2.0/Auto-Process.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -201,6 +253,29 @@
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -208,6 +283,17 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Connect datebase.vi" Type="VI" URL="../Auto_process/数据库/数据库/Connect datebase.vi"/>
+			<Item Name="查询数据库.vi" Type="VI" URL="../Auto_process/数据库/数据库/查询数据库.vi"/>
+			<Item Name="Close connect.vi" Type="VI" URL="../Auto_process/数据库/数据库/Close connect.vi"/>
+			<Item Name="数据处理.vi" Type="VI" URL="../Auto_process/数据库/数据库/数据处理.vi"/>
+			<Item Name="数组处理.vi" Type="VI" URL="../Auto_process/数据库/数据库/数组处理.vi"/>
+			<Item Name="进行编辑.vi" Type="VI" URL="../Auto_process/数据库/数据库/进行编辑.vi"/>
+			<Item Name="字符串取出最大值并加一.vi" Type="VI" URL="../Auto_process/数据库/数据库/字符串取出最大值并加一.vi"/>
+			<Item Name="数据处理2.vi" Type="VI" URL="../Auto_process/数据库/数据库/数据处理2.vi"/>
+			<Item Name="进行编辑2.vi" Type="VI" URL="../Auto_process/数据库/数据库/进行编辑2.vi"/>
+			<Item Name="表单编辑.vi" Type="VI" URL="../Auto_process/数据库/数据库/表单编辑.vi"/>
+			<Item Name="添加标志位.vi" Type="VI" URL="../Auto_process/数据库/数据库/添加标志位.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>

@@ -4,5 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Action-x_control_excel.vi" Type="VI" URL="../Action-x_control_excel.vi"/>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Action-x_control_excel.vi" Type="VI" URL="../Action-x_control_excel.vi"/>
+	</Item>
 </Library>
