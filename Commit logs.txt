@@ -1,0 +1,43 @@
+init_project:
+	创建了本工程，导入了之前写的一些有用的库
+
+modified Structured_data
+	修改了一下这个结构化数据，使其更具有普遍性
+
+modified Project name
+	只是修改了一下项目的名字，嘻嘻
+
+modified report library
+	修改了一下这个报表库，目前只有Excel的，主要是使用ActiveX方法操作Excel，等待后面更新
+
+modified procotol_class
+	搞了一个新的类，专门负责协议解析这些，，没有什么可继承的，但是好用
+
+modified name_ignite
+	修改了一下“点火”这个单词的英语，嘿嘿嘿
+
+modified Structured_data_Class‘s property and Readme
+	修改了一下结构化数据的属性，新增了一个方便子类使用的数据属性
+
+organize Uart_class and modified Can_chuangxin_class
+	整理了一下串口类和修改了一下can驱，这个can驱只是为了适配创新科技的这个can盒专用
+没有什么可以继承修改的，非常鸡肋
+
+Create new Path_class
+	创建了一个新的类，专门做路径管理的，十分好用，这是我觉的非常非常有用的一个类
+
+modified Path_Manages_class
+	修改了一下这个路径管理类，让其更智能
+
+add new Popup_Class
+	新加了一个弹窗类，适配这种巨量弹窗的项目使用，
+
+add new Database Class
+	新加了一个数据库类，只是简单的把人家的数据库相关函数封装了一下，目的是为了后面一些复杂
+操作去继承着使用
+
+Create new Auto Process
+	创建了一个实现自动步骤的类库，我觉得还是不错滴
+
+modified Uart_Class
+	修改了一下串口类，改进了一下，:)
