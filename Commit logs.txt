@@ -41,3 +41,6 @@ Create new Auto Process
 
 modified Uart_Class
 	修改了一下串口类，改进了一下，:)
+
+add can_wanxie 
+	添加了一下万协科技的can卡的驱动。。。。。。。鸡肋。。。……

@@ -46,6 +46,7 @@
 			<Item Name="Init-External.vi" Type="VI" URL="../Init-External.vi"/>
 			<Item Name="Requst Execution Status.vi" Type="VI" URL="../Requst Execution Status.vi"/>
 		</Item>
+		<Item Name="Logs.vi" Type="VI" URL="../Logs.vi"/>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>

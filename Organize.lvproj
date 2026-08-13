@@ -35,11 +35,33 @@
 			<Item Name="ControlCAN_G.lvlib" Type="Library" URL="../Can_lab/ControlCAN.lvlib/ControlCAN_G.lvlib"/>
 			<Item Name="Can_class_chaungxin.lvclass" Type="LVClass" URL="../Can_lab/Can_class_chaunxin_G/Can_class_chaungxin.lvclass"/>
 		</Item>
+		<Item Name="Can_wanxie" Type="Folder">
+			<Item Name="CAN-G.lvlib" Type="Library" URL="../Can_wanxie/CAN-G.lvlib"/>
+		</Item>
 		<Item Name="Uart" Type="Folder">
 			<Item Name="G-Uart-Class.lvclass" Type="LVClass" URL="../Uart_class/G-Uart-Class.lvclass"/>
 		</Item>
 		<Item Name="Path_management" Type="Folder">
 			<Item Name="Path_management.lvclass" Type="LVClass" URL="../Path_Management_Class/Path_management.lvclass"/>
+		</Item>
+		<Item Name="Popup" Type="Folder">
+			<Item Name="Testers-Popup" Type="Folder">
+				<Item Name="Test Popup API.vi" Type="VI" URL="../Popup/Test Popup API.vi"/>
+			</Item>
+			<Item Name="Modules" Type="Folder">
+				<Item Name="Popup.lvlib" Type="Library" URL="../Popup/Popup.lvlib"/>
+			</Item>
+		</Item>
+		<Item Name="Timer" Type="Folder">
+			<Item Name="Timer.lvclass" Type="LVClass" URL="../Timer/Timer.lvclass"/>
+		</Item>
+		<Item Name="Login" Type="Folder">
+			<Item Name="Modules" Type="Folder">
+				<Item Name="login.lvlib" Type="Library" URL="../Login/login-G.lvlib/login.lvlib"/>
+			</Item>
+			<Item Name="Test-login" Type="Folder">
+				<Item Name="Test_login.vi" Type="VI" URL="../Login/login-G.lvlib/Test_login.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Auto_process_-Delete" Type="Folder">
 			<Item Name="Edit" Type="Folder">
@@ -68,25 +90,6 @@
 		<Item Name="Database" Type="Folder">
 			<Item Name="Database_access.lvclass" Type="LVClass" URL="../Database/Database_access.lvclass"/>
 		</Item>
-		<Item Name="Popup" Type="Folder">
-			<Item Name="Testers-Popup" Type="Folder">
-				<Item Name="Test Popup API.vi" Type="VI" URL="../Popup/Test Popup API.vi"/>
-			</Item>
-			<Item Name="Modules" Type="Folder">
-				<Item Name="Popup.lvlib" Type="Library" URL="../Popup/Popup.lvlib"/>
-			</Item>
-		</Item>
-		<Item Name="Timer" Type="Folder">
-			<Item Name="Timer.lvclass" Type="LVClass" URL="../Timer/Timer.lvclass"/>
-		</Item>
-		<Item Name="Login" Type="Folder">
-			<Item Name="Modules" Type="Folder">
-				<Item Name="login.lvlib" Type="Library" URL="../Login/login-G.lvlib/login.lvlib"/>
-			</Item>
-			<Item Name="Test-login" Type="Folder">
-				<Item Name="Test_login.vi" Type="VI" URL="../Login/login-G.lvlib/Test_login.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Auto-Process" Type="Folder">
 			<Item Name="Testers-Auto-Process" Type="Folder">
 				<Item Name="Test Auto-Process API.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Test Auto-Process API.vi"/>
@@ -97,16 +100,22 @@
 				</Item>
 				<Item Name="VI " Type="Folder">
 					<Item Name="Edit.ctl" Type="VI" URL="../Auto_process/Auto-Process2.0/Edit.ctl"/>
+					<Item Name="All-control.ctl" Type="VI" URL="../Database/All-control.ctl"/>
+					<Item Name="Son-control.ctl" Type="VI" URL="../Database/Son-control.ctl"/>
 					<Item Name="List-format.vi" Type="VI" URL="../Auto_process/Subvi-G/List-format.vi"/>
 					<Item Name="Indicator-string.vi" Type="VI" URL="../Auto_process/Subvi-G/Indicator-string.vi"/>
+					<Item Name="Valued.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Valued.vi"/>
+					<Item Name="Add-table.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Add-table.vi"/>
+					<Item Name="Add-datavi.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Add-datavi.vi"/>
+					<Item Name="Delte-table.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Delte-table.vi"/>
+					<Item Name="Delte-data.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Delte-data.vi"/>
+					<Item Name="Time.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Time.vi"/>
+					<Item Name="1or2.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/1or2.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Auto-Process.lvlib" Type="Library" URL="../Auto_process/Auto-Process2.0/Auto-Process.lvlib"/>
 			</Item>
-		</Item>
-		<Item Name="Can_wanxie" Type="Folder">
-			<Item Name="CAN-G.lvlib" Type="Library" URL="../Can_wanxie/CAN-G.lvlib"/>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
