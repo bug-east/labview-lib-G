@@ -44,6 +44,9 @@
 		<Item Name="Path_management" Type="Folder">
 			<Item Name="Path_management.lvclass" Type="LVClass" URL="../Path_Management_Class/Path_management.lvclass"/>
 		</Item>
+		<Item Name="Coefficient_G" Type="Folder">
+			<Item Name="Coefficient.lvclass" Type="LVClass" URL="../Coefficient_G/Coefficient.lvclass"/>
+		</Item>
 		<Item Name="Popup" Type="Folder">
 			<Item Name="Testers-Popup" Type="Folder">
 				<Item Name="Test Popup API.vi" Type="VI" URL="../Popup/Test Popup API.vi"/>
