@@ -66,30 +66,6 @@
 				<Item Name="Test_login.vi" Type="VI" URL="../Login/login-G.lvlib/Test_login.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Auto_process_-Delete" Type="Folder">
-			<Item Name="Edit" Type="Folder">
-				<Item Name="Test" Type="Folder">
-					<Item Name="Test editor.vi" Type="VI" URL="../Auto_process/editor/Test editor.vi"/>
-				</Item>
-				<Item Name="Modules" Type="Folder">
-					<Item Name="Subvi" Type="Folder">
-						<Item Name="拆解坐标.vi" Type="VI" URL="../Auto_process/editor/拆解坐标.vi"/>
-					</Item>
-					<Item Name="editor.lvlib" Type="Library" URL="../Auto_process/editor/editor.lvlib"/>
-				</Item>
-			</Item>
-			<Item Name="Process" Type="Folder">
-				<Item Name="Modules" Type="Folder">
-					<Item Name="Automatic Step.lvlib" Type="Library" URL="../Auto_process/Automatic Step/Automatic Step.lvlib"/>
-				</Item>
-				<Item Name="Test" Type="Folder">
-					<Item Name="Test Automatic Step API.vi" Type="VI" URL="../Auto_process/Automatic Step/Test Automatic Step API.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Subvi" Type="Folder">
-				<Item Name="Sub配件1.lvlib" Type="Library" URL="../Auto_process/Subvi/Sub配件1.lvlib"/>
-			</Item>
-		</Item>
 		<Item Name="Database" Type="Folder">
 			<Item Name="Database_access.lvclass" Type="LVClass" URL="../Database/Database_access.lvclass"/>
 		</Item>
@@ -107,13 +83,20 @@
 					<Item Name="Son-control.ctl" Type="VI" URL="../Database/Son-control.ctl"/>
 					<Item Name="List-format.vi" Type="VI" URL="../Auto_process/Subvi-G/List-format.vi"/>
 					<Item Name="Indicator-string.vi" Type="VI" URL="../Auto_process/Subvi-G/Indicator-string.vi"/>
-					<Item Name="Valued.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Valued.vi"/>
-					<Item Name="Add-table.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Add-table.vi"/>
-					<Item Name="Add-datavi.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Add-datavi.vi"/>
-					<Item Name="Delte-table.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Delte-table.vi"/>
-					<Item Name="Delte-data.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Delte-data.vi"/>
-					<Item Name="Time.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/Time.vi"/>
-					<Item Name="1or2.vi" Type="VI" URL="../Auto_process/Auto-Process2.0/1or2.vi"/>
+					<Item Name="Valued.vi" Type="VI" URL="../Auto_process/Subvi-G/Valued.vi"/>
+					<Item Name="Add-table.vi" Type="VI" URL="../Auto_process/Subvi-G/Add-table.vi"/>
+					<Item Name="Add-data.vi" Type="VI" URL="../Auto_process/Subvi-G/Add-data.vi"/>
+					<Item Name="Delte-table.vi" Type="VI" URL="../Auto_process/Subvi-G/Delte-table.vi"/>
+					<Item Name="Delte-data.vi" Type="VI" URL="../Auto_process/Subvi-G/Delte-data.vi"/>
+					<Item Name="Time.vi" Type="VI" URL="../Auto_process/Subvi-G/Time.vi"/>
+					<Item Name="1or2.vi" Type="VI" URL="../Auto_process/Subvi-G/1or2.vi"/>
+					<Item Name="Match.vi" Type="VI" URL="../Auto_process/Subvi-G/Match.vi"/>
+					<Item Name="Empty-Arr.vi" Type="VI" URL="../Auto_process/Subvi-G/Empty-Arr.vi"/>
+					<Item Name="Add Flag.vi" Type="VI" URL="../Auto_process/Subvi-G/Add Flag.vi"/>
+					<Item Name="Arr-string.vi" Type="VI" URL="../Auto_process/Subvi-G/Arr-string.vi"/>
+					<Item Name="Add-size.vi" Type="VI" URL="../Auto_process/Subvi-G/Add-size.vi"/>
+					<Item Name="Bollen-numb.vi" Type="VI" URL="../Auto_process/Subvi-G/Bollen-numb.vi"/>
+					<Item Name="n_2" Type="VI" URL="../Auto_process/Subvi-G/n_2"/>
 				</Item>
 			</Item>
 			<Item Name="Modules" Type="Folder">
@@ -288,7 +271,6 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -304,17 +286,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Connect datebase.vi" Type="VI" URL="../Auto_process/数据库/数据库/Connect datebase.vi"/>
-			<Item Name="查询数据库.vi" Type="VI" URL="../Auto_process/数据库/数据库/查询数据库.vi"/>
-			<Item Name="Close connect.vi" Type="VI" URL="../Auto_process/数据库/数据库/Close connect.vi"/>
-			<Item Name="数据处理.vi" Type="VI" URL="../Auto_process/数据库/数据库/数据处理.vi"/>
-			<Item Name="数组处理.vi" Type="VI" URL="../Auto_process/数据库/数据库/数组处理.vi"/>
-			<Item Name="进行编辑.vi" Type="VI" URL="../Auto_process/数据库/数据库/进行编辑.vi"/>
-			<Item Name="字符串取出最大值并加一.vi" Type="VI" URL="../Auto_process/数据库/数据库/字符串取出最大值并加一.vi"/>
-			<Item Name="数据处理2.vi" Type="VI" URL="../Auto_process/数据库/数据库/数据处理2.vi"/>
-			<Item Name="进行编辑2.vi" Type="VI" URL="../Auto_process/数据库/数据库/进行编辑2.vi"/>
-			<Item Name="表单编辑.vi" Type="VI" URL="../Auto_process/数据库/数据库/表单编辑.vi"/>
-			<Item Name="添加标志位.vi" Type="VI" URL="../Auto_process/数据库/数据库/添加标志位.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>

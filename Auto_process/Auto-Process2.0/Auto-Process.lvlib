@@ -26,11 +26,13 @@
 				<Item Name="Init-External Argument--cluster.ctl" Type="VI" URL="../Init-External Argument--cluster.ctl"/>
 				<Item Name="Requst Execution Status Argument--cluster.ctl" Type="VI" URL="../Requst Execution Status Argument--cluster.ctl"/>
 				<Item Name="Requst Execution Status (Reply Payload)--cluster.ctl" Type="VI" URL="../Requst Execution Status (Reply Payload)--cluster.ctl"/>
+				<Item Name="Receive end Argument--cluster.ctl" Type="VI" URL="../Receive end Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Send task Argument--cluster.ctl" Type="VI" URL="../Send task Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -45,6 +47,7 @@
 			<Item Name="Origin.vi" Type="VI" URL="../Origin.vi"/>
 			<Item Name="Init-External.vi" Type="VI" URL="../Init-External.vi"/>
 			<Item Name="Requst Execution Status.vi" Type="VI" URL="../Requst Execution Status.vi"/>
+			<Item Name="Receive end.vi" Type="VI" URL="../Receive end.vi"/>
 		</Item>
 		<Item Name="Logs.vi" Type="VI" URL="../Logs.vi"/>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
@@ -64,6 +67,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Send task.vi" Type="VI" URL="../Send task.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
