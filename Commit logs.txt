@@ -54,3 +54,7 @@ creat Coefficient_class
 
 Complete_Auto-process
 	完善了自动步骤的所有功能，比较NB反正是我觉得
+
+complete Auto_process_UI_Refursh
+	完善了UI的刷新，原来的执行流程刷新会阻塞线程，导致每条步骤有200ms左右的延时，现在执行会
+很快，但是刷新有一点点慢

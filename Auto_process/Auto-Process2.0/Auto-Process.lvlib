@@ -27,6 +27,7 @@
 				<Item Name="Requst Execution Status Argument--cluster.ctl" Type="VI" URL="../Requst Execution Status Argument--cluster.ctl"/>
 				<Item Name="Requst Execution Status (Reply Payload)--cluster.ctl" Type="VI" URL="../Requst Execution Status (Reply Payload)--cluster.ctl"/>
 				<Item Name="Receive end Argument--cluster.ctl" Type="VI" URL="../Receive end Argument--cluster.ctl"/>
+				<Item Name="Refursh-UI Argument--cluster.ctl" Type="VI" URL="../Refursh-UI Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -48,6 +49,7 @@
 			<Item Name="Init-External.vi" Type="VI" URL="../Init-External.vi"/>
 			<Item Name="Requst Execution Status.vi" Type="VI" URL="../Requst Execution Status.vi"/>
 			<Item Name="Receive end.vi" Type="VI" URL="../Receive end.vi"/>
+			<Item Name="Refursh-UI.vi" Type="VI" URL="../Refursh-UI.vi"/>
 		</Item>
 		<Item Name="Logs.vi" Type="VI" URL="../Logs.vi"/>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
