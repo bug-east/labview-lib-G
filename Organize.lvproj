@@ -103,6 +103,21 @@
 				<Item Name="Auto-Process.lvlib" Type="Library" URL="../Auto_process/Auto-Process2.0/Auto-Process.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="Timer_CSM_Works" Type="Folder">
+			<Item Name="Timer_Works.vi" Type="VI" URL="../Timer_CSM_Works/Timer_Works.vi"/>
+			<Item Name="Timing-calle.vi" Type="VI" URL="../Timer_CSM_Works/Timing-calle.vi"/>
+		</Item>
+		<Item Name="Misc" Type="Folder">
+			<Item Name="A" Type="Folder">
+				<Item Name="Range-check.vi" Type="VI" URL="../Misc/A-Range-check/Range-check.vi"/>
+				<Item Name="Test.vi" Type="VI" URL="../Misc/A-Range-check/Test.vi"/>
+			</Item>
+			<Item Name="B" Type="Folder">
+				<Item Name="Range-check-csm-works.vi" Type="VI" URL="../Misc/B-Range-check-csm/Range-check-csm-works.vi"/>
+				<Item Name="API.ctl" Type="VI" URL="../Misc/B-Range-check-csm/API.ctl"/>
+				<Item Name="Test-B.vi" Type="VI" URL="../Misc/B-Range-check-csm/Test-B.vi"/>
+			</Item>
+		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -276,9 +291,16 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
+				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AMC_XHT.lvlib" Type="Library" URL="/&lt;userlib&gt;/XHT_LabVIEW/AMC/AMC_XHT.lvlib"/>
+				<Item Name="CSM Shared.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/_Shared/CSM Shared.lvlib"/>
+				<Item Name="Communicable State Machine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/Communicable State Machine.lvlib"/>
+				<Item Name="API String Arguments Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/API-String-Arugments-Support/API String Arguments Support.lvlib"/>
+				<Item Name="CSM Loop Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/Loop-Support/CSM Loop Support.lvlib"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

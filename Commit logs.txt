@@ -58,3 +58,7 @@ Complete_Auto-process
 complete Auto_process_UI_Refursh
 	完善了UI的刷新，原来的执行流程刷新会阻塞线程，导致每条步骤有200ms左右的延时，现在执行会
 很快，但是刷新有一点点慢
+
+Add new Timer_CSM_Works and Misc
+	Timer_CSM_Works 是工作者模式运行的一个定时器，Misc是准备的一些杂项，目前有函数式条件判断
+和工作者模式的函数条件判断(支持并发)，工作者模式的API调用只能使用异步消息，返回是广播式，可参考范例
