@@ -19,24 +19,11 @@
 				<Item Name="Test log class API.vi" Type="VI" URL="../Log_Class/Test log class API.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Structured_data" Type="Folder">
-			<Item Name="Readme" Type="Folder">
-				<Item Name="Structrued_data_Read_me.docx" Type="Document" URL="../Structured_data_template/Structrued_data_Read_me.docx"/>
-			</Item>
-			<Item Name="Structured_data_class_F.lvclass" Type="LVClass" URL="../Structured_data/Structured_data_class_F.lvclass"/>
-		</Item>
 		<Item Name="Report" Type="Folder">
 			<Item Name="Report_modify.lvlib" Type="Library" URL="../action-x/Report_modify.lvlib"/>
 		</Item>
 		<Item Name="Protocol" Type="Folder">
 			<Item Name="Procotol_class.lvclass" Type="LVClass" URL="../Procotol_class/Procotol_class.lvclass"/>
-		</Item>
-		<Item Name="Can_chuangxin" Type="Folder">
-			<Item Name="ControlCAN_G.lvlib" Type="Library" URL="../Can_lab/ControlCAN.lvlib/ControlCAN_G.lvlib"/>
-			<Item Name="Can_class_chaungxin.lvclass" Type="LVClass" URL="../Can_lab/Can_class_chaunxin_G/Can_class_chaungxin.lvclass"/>
-		</Item>
-		<Item Name="Can_wanxie" Type="Folder">
-			<Item Name="CAN-G.lvlib" Type="Library" URL="../Can_wanxie/CAN-G.lvlib"/>
 		</Item>
 		<Item Name="Uart" Type="Folder">
 			<Item Name="G-Uart-Class.lvclass" Type="LVClass" URL="../Uart_class/G-Uart-Class.lvclass"/>
@@ -54,9 +41,6 @@
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Popup.lvlib" Type="Library" URL="../Popup/Popup.lvlib"/>
 			</Item>
-		</Item>
-		<Item Name="Timer" Type="Folder">
-			<Item Name="Timer.lvclass" Type="LVClass" URL="../Timer/Timer.lvclass"/>
 		</Item>
 		<Item Name="Login" Type="Folder">
 			<Item Name="Modules" Type="Folder">
@@ -288,15 +272,11 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
-				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
-				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
-				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="AMC_XHT.lvlib" Type="Library" URL="/&lt;userlib&gt;/XHT_LabVIEW/AMC/AMC_XHT.lvlib"/>
 				<Item Name="CSM Shared.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/_Shared/CSM Shared.lvlib"/>
 				<Item Name="Communicable State Machine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/Communicable State Machine.lvlib"/>
 				<Item Name="API String Arguments Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/API-String-Arugments-Support/API String Arguments Support.lvlib"/>

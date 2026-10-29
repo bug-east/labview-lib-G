@@ -27,27 +27,19 @@ Item 18 = "Macro: Initialize"
 Item 19 = "Macro: Timing"
 Item 20 = "Macro: Exit"
 Item 21 = "API: Timing"
-Item 22 = "Timing: Initizelia"
-Item 23 = "Timing: start"
-Item 24 = "Timing: execute"
-Item 25 = "Timing: stop"
-Item 26 = "Timing: loop check"
-Item 27 = "Timing: loop quit"
+Item 22 = "API: name"
+Item 23 = "Timing: Initizelia"
+Item 24 = "Timing: start"
+Item 25 = "Timing: execute"
+Item 26 = "Timing: stop"
+Item 27 = "Timing: loop check"
+Item 28 = "Timing: loop quit"
 
 [CSMStatus.Timer_Works.vi]
 Item 0 = "Error Occurred@Error Handler"
 
 [DebugConsole.historyView]
 History Length = 50    
-History 0 = "API: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:3000} ->| Range Check"
-History 1 = "Macro: Range check ->| Range check"
-History 2 = "Macro: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:3000} ->| Range check"
-History 3 = "API: API1 >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:3000} ->| Event CSM"
-History 4 = "Macro: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:3000} -@ Range check"
-History 5 = "API: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:3000} -@ Range check"
-History 6 = "API: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:2000;超时时间ms:2000} -@ Range check"
-History 7 = "API: Range check >> {设定值上限:10;设定值下限:1;设定时间ms:1000;超时时间ms:2000} -@ Range check"
-History 8 = "API: Timing >> 1200 -@ Timer"
 
 [CSMModule.CSM-Module]
 VIName = "Range-check-csm-works.vi"
@@ -159,3 +151,46 @@ Item 25 = "Brosdcase: action2"
 
 [CSMStatus.Test-B.vi]
 Item 0 = "Error Occurred@Error Handler"
+
+[CSMModule.Reuse Module]
+VIName = "1. Create a reuse Module.lvlib:CSM Reuse Module.vi"
+
+[CSMVI.1. Create a reuse Module.lvlib:CSM Reuse Module.vi]
+Path = "<LabVIEW>/examples/NEVSTOP/Communicable State Machine(CSM)/1. Create a reuse Module/CSM Reuse Module.vi"
+
+[CSMStates.1. Create a reuse Module.lvlib:CSM Reuse Module.vi]
+Item 0 = "Event Structure"
+Item 1 = "Idle"
+Item 2 = "CSM Documentation"
+Item 3 = "VI Reference"
+Item 4 = "Error Handler"
+Item 5 = "Critical Error"
+Item 6 = "Target Error"
+Item 7 = "Target Timeout Error"
+Item 8 = "Async Response"
+Item 9 = "Response"
+Item 10 = "Async Message Posted"
+Item 11 = "Initialize Core Data"
+Item 12 = "Exit"
+Item 13 = "Data: Initialize"
+Item 14 = "Data: Cleanup"
+Item 15 = "Events: Register"
+Item 16 = "Events: Unregister"
+Item 17 = "UI: Initialize"
+Item 18 = "UI: Cursor Set"
+Item 19 = "UI: Front Panel State"
+Item 20 = "Macro: Initialize"
+Item 21 = "Macro: Exit"
+Item 22 = "API: Start"
+Item 23 = "API: Stop"
+Item 24 = "API: Set Level"
+Item 25 = "API: Get Level"
+Item 26 = "DoSth: Check If Greater than 0.5"
+
+[CSMStatus.1. Create a reuse Module.lvlib:CSM Reuse Module.vi]
+Item 0 = "Error Occurred@Error Handler"
+Item 1 = "Check Started@API: Start"
+Item 2 = "Check Stoppped@API: Stop"
+
+[CSMModule.Timer2]
+VIName = "Timer_Works.vi"
