@@ -66,3 +66,10 @@ Timer的API可以使用同步消息（推荐）
 Timer_CSM_Works的API调用只能使用异步消息，返回是广播式，可参考范例
 具体项目中，要在其中把具体的源值使用全局传递，在消息初始化时使用索引以及条件结构+全局变量导出对应的
 变量
+
+A Truncation modify
+	修改了useful_methods 的路径问题，现在是全部在一个盘符内搜索，不存在要在表单内写死
+删掉了特例化，没有复用性，的一些东西，
+
+First push
+	添加了readme.md，第一次提交至github
